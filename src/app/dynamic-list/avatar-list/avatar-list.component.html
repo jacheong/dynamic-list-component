@@ -1,0 +1,6 @@
+<mat-list>
+  <mat-list-item *ngFor="let item of props.items">
+    <img matListAvatar [src]="item.src" [alt]="item.alt">
+    <h3 matLine> {{item.label}} </h3>
+  </mat-list-item>
+</mat-list>

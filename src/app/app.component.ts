@@ -9,16 +9,14 @@ import { ListTypes } from './dynamic-list/list-types/list-types';
 export class AppComponent {
   name = 'Angular';
   list = {
-    type: ListTypes.avatar,
+    type: ListTypes.icon,
     items: [
       {
-        src: 'https://picsum.photos/200/200',
-        alt: 'favorite',
+        iconName: 'favorite',
         label: 'option 1'
       },
       {
-        src: 'https://picsum.photos/200/200',
-        alt: 'favorite',
+        iconName: 'home',
         label: 'option 2'
       },
     ]
