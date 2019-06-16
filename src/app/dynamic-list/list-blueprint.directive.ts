@@ -43,6 +43,7 @@ export class ListBlueprintDirective implements OnInit {
   ) { }
 
   ngOnInit() {
+
     const factory = this.componentFactoryResolver.resolveComponentFactory(
       componentMapper[this.props['type']]
     );

@@ -1,1 +1,22 @@
-<app-dynamic-list [props]="list"></app-dynamic-list>
+
+
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>List Types</mat-card-title>
+  </mat-card-header>
+  
+  <mat-card-content>
+    <app-dynamic-list [props]="navList"></app-dynamic-list>
+  </mat-card-content>
+</mat-card>
+
+
+<mat-card>
+    <mat-card-header>
+    <mat-card-title>Sample</mat-card-title>
+  </mat-card-header>
+  
+  <mat-card-content>
+    <router-outlet></router-outlet>
+  </mat-card-content>
+</mat-card>

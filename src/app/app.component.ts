@@ -8,16 +8,20 @@ import { ListTypes } from './dynamic-list/list-types/list-types';
 })
 export class AppComponent {
   name = 'Angular';
-  list = {
-    type: ListTypes.icon,
+  navList = {
+    type: ListTypes.navigation,
     items: [
       {
-        iconName: 'favorite',
-        label: 'option 1'
+        label: 'Home',
+        url: '/home'
       },
-      {
-        iconName: 'home',
-        label: 'option 2'
+            {
+        label: 'Basic',
+        url: '/basic'
+      },
+            {
+        label: 'Action',
+        url: '/action'
       },
     ]
   };

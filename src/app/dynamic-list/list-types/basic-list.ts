@@ -1,7 +1,7 @@
 import { ListTypes } from './list-types';
 
 export class BasicListItem {
-  value: string;
+  label: string;
 }
 
 export class BasicList {
