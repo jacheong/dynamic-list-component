@@ -13,7 +13,7 @@ export class ListService {
         type: ListTypes.basic,
         items: [
           {
-            label: 'Click on a list type from above!'
+            label: 'Click on a list type'
           },
         ]
       }
