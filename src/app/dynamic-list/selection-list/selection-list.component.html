@@ -1,0 +1,6 @@
+<mat-selection-list #options>
+  <mat-list-option *ngFor="let option of props.items">
+    {{option.label}}
+  </mat-list-option>
+</mat-selection-list>
+<button mat-raised-button color="primary">Options selected: ({{options.selectedOptions.selected.length}})</button>
