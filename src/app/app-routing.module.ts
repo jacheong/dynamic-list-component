@@ -10,9 +10,12 @@ const routes: Routes = [
     redirectTo: '/home',
     pathMatch: 'full'
   },
-    {
+  {
     path: 'home',
     component: HomeComponent,
+    resolve: {
+      data: RouteResolverService
+    }
   },
   {
     path: 'basic',
@@ -21,7 +24,34 @@ const routes: Routes = [
       data: RouteResolverService
     }
   },
-
+  {
+    path: 'action',
+    component: HomeComponent,
+    resolve: {
+      data: RouteResolverService
+    }
+  },
+  {
+    path: 'selection',
+    component: HomeComponent,
+    resolve: {
+      data: RouteResolverService
+    }
+  },
+  {
+    path: 'avatar',
+    component: HomeComponent,
+    resolve: {
+      data: RouteResolverService
+    }
+  },
+  {
+    path: 'icon',
+    component: HomeComponent,
+    resolve: {
+      data: RouteResolverService
+    }
+  },
 ];
 
 @NgModule({

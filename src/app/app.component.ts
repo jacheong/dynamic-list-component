@@ -15,13 +15,25 @@ export class AppComponent {
         label: 'Home',
         url: '/home'
       },
-            {
+      {
         label: 'Basic',
         url: '/basic'
       },
-            {
+      {
         label: 'Action',
         url: '/action'
+      },
+      {
+        label: 'Selection',
+        url: '/selection'
+      },
+            {
+        label: 'Icon',
+        url: '/icon'
+      },
+            {
+        label: 'Avatar',
+        url: '/avatar'
       },
     ]
   };
