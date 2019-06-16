@@ -7,6 +7,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 import { AppComponent } from './app.component';
 import { DynamicListComponent } from './dynamic-list/dynamic-list.component';
@@ -22,7 +23,7 @@ import { ListService } from './services/list.service';
 import { RouteResolverService } from './services/route-resolver.service';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, MatListModule, MatIconModule,MatButtonModule, MatCardModule,AppRoutingModule ],
+  imports:      [ BrowserModule, FormsModule, MatListModule, MatIconModule,MatButtonModule, MatCardModule, MatProgressSpinnerModule, AppRoutingModule ],
   declarations: [ AppComponent, DynamicListComponent, BasicListComponent, ListBlueprintDirective, NavigationListComponent, ActionListComponent, SelectionListComponent, IconListComponent, AvatarListComponent, HomeComponent ],
   entryComponents: [
     BasicListComponent,
